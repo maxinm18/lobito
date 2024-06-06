@@ -39,6 +39,28 @@ public class Juego {
         setPersonajeBarcaRio();
         return (short)opc;
     }
+    
+    public void moverBarca(){
+        for(int i=0;i<=rio.length();i++){
+                System.out.print("\r"
+                                +".".repeat(i)
+                                +barca
+                                +".".repeat(rio.length()-i));
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {}
+        }
+        for(int i=0;i<=rio.length();i--){
+            System.out.print("\r"
+                                +".".repeat(i)
+                                +barca
+                                +".".repeat(rio.length()-i));
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {}
+        }
+    }
+    
     private void setPersonajeBarcaRio(){
         String  personajeIzq = Arrays.toString(ladoIzq),
                 personajeDer = Arrays.toString(ladoDer);
@@ -47,4 +69,5 @@ public class Juego {
                             + rio
                             + personajeDer);
     }
+
 }
