@@ -15,13 +15,21 @@ public class Jugador {
     public Boolean Login(){
         String usuario = "";
         String clave   = "";
-        System.out.println("Ingreso al juego");
-        System.out.print("Ingresa usuario: ");
-        usuario = App.sc.nextLine();
-        System.out.print("Ingresa la clave: ");
-        clave = App.sc.nextLine();
-        if(getUsuario().equals(usuario) && getClave().equals(clave))
-            return true;
+        Boolean novalido  = true;
+        do {
+            System.out.println("Ingreso al juego");
+            System.out.print("Ingresa usuario: ");
+            usuario = App.sc.nextLine();
+            System.out.print("Ingresa la clave: ");
+            clave = App.sc.nextLine();
+            if(getUsuario().equals(usuario) && getClave().equals(clave))
+                return true;  
+            System.out.print("Press (S) para salir: ");
+            if (App.sc.nextLine().toLowerCase().equals("s")) {
+                System.exit(0);   
+
+            }              
+        } while (novalido);
         
         return false;
     }
@@ -42,6 +50,9 @@ public class Jugador {
         return nombre;
     }
     public void setNombre(String nombre) {
+        this.nombre = "";
+        if(nombre != null)
+            this.nombre = nombre.toUpperCase();
         this.nombre = nombre;
     }
     

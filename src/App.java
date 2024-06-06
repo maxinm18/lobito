@@ -5,7 +5,8 @@ public class App {
     public static Juego juego;
 
     public static void main(String[] args) throws Exception {
-        Jugador jugador = new Jugador();
-        jugador.Login();
+        Juego j =new Juego();
+        j.getOptionMenu();
+
     }
 }
