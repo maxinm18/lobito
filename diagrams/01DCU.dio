@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="D28Rvcqh0QlbbfJrgNBv" name="Page-1">
+        <mxGraphModel dx="1002" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="&lt;font color=&quot;#170707&quot;&gt;DCU Juego lobito&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#fff2cc;strokeColor=#D61851;" parent="1" vertex="1">
+                    <mxGeometry x="294" y="69" width="254" height="464" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;startArrow=none;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="2" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Jugador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="181" y="223" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="3" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="3" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="3" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Juego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="223" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="jugar el lobito" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3A1CFF;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="347" y="323" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="logearse al sistema&lt;br&gt;logearse" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3A1CFF;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="347" y="126" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Palanca" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="736" y="386" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;rounded=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="14" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="584" y="490" as="sourcePoint"/>
+                        <mxPoint x="630" y="433" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="mostrar menu del juego" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3A1CFF;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="351" y="232" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#3A1CFF;strokeColor=#d6b656;" parent="1" source="22" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="validar las regla del juego y definir si gana o pierde" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3A1CFF;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="442" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
