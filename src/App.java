@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         Juego j =new Juego();
-        j.getOptionMenu();
+        j.jugarLobito();
 
     }
 }
